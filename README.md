@@ -141,13 +141,13 @@ Then open http://localhost:5173 in your browser. 🎉
 ## 👤 Author & Contact
 
 <p align="center">
-  <img src="https://i.postimg.cc/KjDqkbXm/1765031414996-3.jpg"
-       alt="Gouranga Das Samrat"
+    <img src="https://i.postimg.cc/KjDqkbXm/1765031414996-3.jpg"
+      alt="ONOBIONO ELOGO Dave Yohan"
        width="120"
        style="border-radius:50%;box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
 </p>
 
-<h3 align="center">Gouranga Das Samrat</h3>
+<h3 align="center">ONOBIONO ELOGO Dave Yohan</h3>
 
 <p align="center">
   <i>
@@ -221,6 +221,6 @@ This project is licensed under the MIT License. Feel free to use it for your own
 
 <div align="center">
 
-Made with ❤️ by [Gouranga Das Samrat](https://github.com/GourangaDasSamrat)
+Made with ❤️ by [ONOBIONO ELOGO Dave Yohan](https://github.com/GourangaDasSamrat)
 
 </div>
