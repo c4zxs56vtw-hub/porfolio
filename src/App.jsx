@@ -3,7 +3,6 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Footer, Navbar } from "./components";
 import {
   About,
-  Certifications,
   Contact,
   Experience,
   Home,
@@ -32,16 +31,6 @@ const App = () => {
               <>
                 <Navbar />
                 <About />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="/certifications"
-            element={
-              <>
-                <Navbar />
-                <Certifications />
                 <Footer />
               </>
             }

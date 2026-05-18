@@ -1,28 +1,18 @@
 import {
   c,
   contact,
-  cpp,
   docker,
-  express,
-  fastify,
   github,
   githubActions,
-  go,
   javascript,
   linkedin,
-  lua,
-  mongodb,
   mysql,
-  nestjs,
   nextjs,
   nodejs,
   postgresql,
   python,
-  redis,
-  redux,
   sqlite,
   tailwindcss,
-  typescript
 } from "../assets/icons";
 
 
@@ -31,28 +21,23 @@ import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
 import p3 from "../assets/images/project-3.webp";
 import p4 from "../assets/images/project-4.webp";
-import p5 from "../assets/images/project-5.webp";
-import p6 from "../assets/images/project-6.webp";
 
 export const experiences = [
   {
-    title: "Campus Ambassador",
-    company: "Phitron",
-    type: "Part-Time",
-    duration: "8th Dec 2025 - Present",
+    title: "Stagiaire Développeur Full-Stack",
+    company: "Pupule",
+    type: "Stage Professionnel",
+    duration: "2025 - Présent",
     description:
-      "Building a strong student community, and organizing educational workshops and events on campus. Focused on developing leadership and communication skills while acting as a bridge between the company and the student body.",
-    certificateUrl: "https://i.postimg.cc/dV63LQMR/IMG-20251208-WA0000.jpg",
+      "Approfondissement des compétences en développement full-stack à travers des technologies modernes telles que Laravel, React, Django et PostgreSQL. Travail sur des projets avancés et renforcement des compétences en conception d'applications web performantes et évolutives.",
   },
   {
-    title: "Web Developer Intern",
-    company: "Labmentix",
-    type: "Internship",
-    duration: "15th Sep 2025 - 14th Oct 2025",
+    title: "Stagiaire Développeur Web",
+    company: "Bridges Collector",
+    type: "Stage Académique",
+    duration: "2024",
     description:
-      "Internship experience in web development, focusing on creating and maintaining web applications.",
-    certificateUrl:
-      "https://drive.google.com/file/d/1I-Ifd8S0Xn4pqB9j20Y-HmkoCgYOz1PS/view?usp=sharing",
+      "Acquisition de compétences en développement web avec les technologies PHP, HTML, CSS et JavaScript, tout en participant à la conception et à la maintenance d'applications web. Stage effectué dans le cadre de la formation BTS Génie Logiciel.",
   },
 ];
 
@@ -62,46 +47,22 @@ export const skills = [
     name: "JavaScript",
     type: "Frontend",
   },
-  {
-    imageUrl: typescript,
-    name: "TypeScript",
-    type: "Frontend",
-  },
-  {
-    imageUrl: go,
-    name: "Go",
-    type: "Backend and System",
-  },
+  
+  
   {
     imageUrl: c,
     name: "C",
     type: "Backend and System",
   },
-  {
-    imageUrl: cpp,
-    name: "C++",
-    type: "Backend and System",
-  },
+  
   {
     imageUrl: python,
     name: "Python",
     type: "Backend and Scripting",
   },
-  {
-    imageUrl: lua,
-    name: "Lua",
-    type: "Backend and Scripting",
-  },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: redux,
-    name: "Redux",
-    type: "State Management",
-  },
+ 
+  
+  
   {
     imageUrl: tailwindcss,
     name: "Tailwind CSS",
@@ -112,26 +73,14 @@ export const skills = [
     name: "Node.js",
     type: "Backend",
   },
+ 
   {
-    imageUrl: express,
-    name: "Express",
-    type: "Backend",
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
   },
-  {
-    imageUrl: nestjs,
-    name: "Nest.js",
-    type: "Backend",
-  },
-  {
-    imageUrl: fastify,
-    name: "Fastify",
-    type: "Backend",
-  },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
+  
+  
   {
     imageUrl: postgresql,
     name: "PostgreSQL",
@@ -147,11 +96,7 @@ export const skills = [
     name: "SqLite",
     type: "Database",
   },
-  {
-    imageUrl: redis,
-    name: "Redis",
-    type: "Database",
-  },
+  
   {
     imageUrl: docker,
     name: "Docker",
@@ -173,62 +118,46 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/GourangaDasSamrat/",
+    link: "https://github.com/GourangaDasSamrat",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/gouranga-das-samrat",
+    link: "https://www.linkedin.com/in/yohan-dave-0b30573b3?trk=feed_main-feed-card_feed-actor-image",
+  },
+  {
+    name: "Phone",
+    iconUrl: contact,
+    link: "tel:690515143",
   },
 ];
 
 export const projects = [
   {
-    name: "PDF Merger React App",
+    name: "Vidéosurveillance Pro",
     description:
-      "A React application that allows users to merge multiple PDF files into one, providing a simple and efficient way to manage PDF documents.",
+      "Application mobile de vidéosurveillance permettant la gestion et le monitoring de caméras en temps réel. Projet développé avec une architecture moderne orientée sécurité.",
     image: p1,
-    liveUrl: "https://pdf-hero.gouranga.eu.org/",
-    sourceCode: "https://github.com/GourangaDasSamrat/PDF-Merger-React.git",
+    sourceCode: "https://github.com/c4zxs56vtw-hub/videosurveillance-pro",
   },
   {
-    name: "3D Island Portfolio",
+    name: "Commerce1 — E-commerce Django",
     description:
-      "An interactive 3D island portfolio that showcases your work in a unique and engaging way, built with React and Three.js.And a blog section for sharing insights and updates.",
+      "Application e-commerce complète développée avec Django. Gestion des produits, des commandes et des utilisateurs avec une interface web intuitive.",
     image: p2,
-    liveUrl: "https://gouranga.eu.org/",
-    sourceCode: "https://github.com/GourangaDasSamrat/3d-react-portfolio-2.git",
+    sourceCode: "https://github.com/c4zxs56vtw-hub/commerce1",
   },
   {
-    name: "Advanced Weather App",
+    name: "Projet Web",
     description:
-      "An advanced weather application that provides real-time weather updates, forecasts, and location-based services, built with React and OpenWeatherMap API.",
+      "Projet web réalisé avec les technologies HTML, CSS et JavaScript. Mise en pratique des fondamentaux du développement front-end.",
     image: p3,
-    liveUrl: "https://ecosky.gouranga.eu.org/",
-    sourceCode: "https://github.com/GourangaDasSamrat/React-Weather-App.git",
+    sourceCode: "https://github.com/c4zxs56vtw-hub/web",
   },
   {
-    name: "JS Visualizer",
+    name: "Pupule — Plateforme Full-Stack",
     description:
-      "An open-source JavaScript runtime debugger (React 19, TypeScript, GSAP, Tailwind v4, Zustand) that animates the Call Stack, Event Loop, Task Queue, and Microtask Queue step-by-step; architected with a WASM-replaceable execution engine and full OSS documentation.",
+      "Projet professionnel développé durant mon stage chez Pupule. Application web full-stack avec React en front-end, Laravel en back-end et PostgreSQL comme base de données. Conception d'interfaces modernes et de fonctionnalités back-end performantes.",
     image: p4,
-    liveUrl: "https://js-visualizer.gouranga.eu.org/",
-    sourceCode: "https://github.com/GourangaDasSamrat/JS-Visualizer",
-  },
-  {
-    name: "CLI Todo App",
-    description:
-      "A powerful, feature-rich command-line todo application built with Go.",
-    image: p5,
-    sourceCode: "https://github.com/GourangaDasSamrat/todo-cli-go/",
-  },
-  {
-    name: "3D iPhone Website Clone",
-    description:
-      "A 3D clone of the iPhone website, showcasing the latest iPhone models in an interactive 3D environment, built with React and Three.js.",
-    image: p6,
-    liveUrl: "https://iphone-15-pro-3d-website-clone.vercel.app/",
-    sourceCode:
-      "https://github.com/GourangaDasSamrat/iphone-15-pro-3d-website-clone.git",
   },
 ];

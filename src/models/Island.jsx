@@ -153,7 +153,7 @@ export function Island({
       canvas.removeEventListener("touchend", handleTouchEnd);
       canvas.removeEventListener("touchmove", handleTouchMove);
     };
-  }, [gl, handlePointerDown, handlePointerUp, handlePointerMove]);
+  }, [gl, isRotating]);
 
   // This function is called on each frame update
   useFrame(() => {

@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import { socialLinks } from "../constants";
 
 const Footer = () => {
@@ -9,18 +7,18 @@ const Footer = () => {
 
       <div className='footer-container'>
         <p>
-          © 2025 <strong>Gouranga Das Samrat</strong>. All rights reserved.
+          © 2026 <strong>ONOBIONO ELOGO Dave Yohan</strong>
         </p>
 
         <div className='flex gap-3 justify-center items-center'>
           {socialLinks.map((link) => (
-            <Link key={link.name} to={link.link} target='_blank'>
+            <a key={link.name} href={link.link} target='_blank' rel='noopener noreferrer'>
               <img
                 src={link.iconUrl}
                 alt={link.name}
                 className='w-6 h-6 object-contain'
               />
-            </Link>
+            </a>
           ))}
         </div>
       </div>

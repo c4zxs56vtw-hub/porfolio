@@ -1,15 +1,8 @@
 import { Link } from "react-router-dom";
-import { SEO } from "../components";
 
 const NotFound = () => {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen bg-slate-900 px-4 py-12">
-      <SEO
-        title="404 - Page Not Found | Gouranga Das Samrat"
-        description="Sorry, the page you are looking for does not exist."
-        name="Gouranga Das Samrat"
-        type="website"
-      />
       <div className="w-full max-w-4xl mx-auto text-center">
         <h1 className="text-8xl font-bold text-blue-500 mb-4 animate-pulse">
           404

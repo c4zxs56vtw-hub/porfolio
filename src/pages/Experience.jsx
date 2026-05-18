@@ -6,10 +6,10 @@ const Experience = () => {
   return (
     <section className="max-container">
       <Helmet>
-        <title>Experience | Gouranga Das Samrat</title>
+        <title>Experience | ONOBIONO ELOGO Dave Yohan</title>
         <meta
           name="description"
-          content="Professional experience and internships of Gouranga Das Samrat"
+          content="Professional experience and internships of ONOBIONO ELOGO Dave Yohan"
         />
       </Helmet>
 

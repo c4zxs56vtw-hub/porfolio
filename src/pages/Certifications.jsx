@@ -84,7 +84,7 @@ const Certifications = () => {
     {
       title: "TailwindCSS from A to Z: Master TailwindCSS Quickly",
       image: certificate18,
-      date: "03 OCtober 2025",
+      date: "03 October 2025",
       org: "Udemy",
       description:
         "Comprehensive course covering TailwindCSS fundamentals to advanced concepts, focusing on rapid UI development and responsive design using utility-first principles.",
@@ -93,7 +93,7 @@ const Certifications = () => {
     {
       title: "Master Web & Mobile Design: Figma, UI/UX Essentials, +More",
       image: certificate17,
-      date: "03 OCtober 2025",
+      date: "03 October 2025",
       org: "Udemy",
       description:
         "Hands-on training in web and mobile design using Figma, covering core UI/UX principles, wireframing, prototyping, and design workflows for real-world applications.",
@@ -262,7 +262,7 @@ const Certifications = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <SEO title="Certifications | Gouranga Das Samrat" />
+      <SEO title="Certifications | ONOBIONO ELOGO Dave Yohan" />
 
       <motion.h1
         className="head-text"

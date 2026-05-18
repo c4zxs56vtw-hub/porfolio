@@ -1,38 +1,31 @@
 import { motion } from "framer-motion";
-import { CTA, SEO } from "../components";
+import { CTA } from "../components";
 import { skills } from "../constants";
 
 const About = () => {
   return (
-    <motion.section
+  <motion.section
       className="max-container"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <SEO
-        title="About | Gouranga Das Samrat"
-        description="Learn about Gouranga Das Samrat's journey, skills, and professional experience in full-stack development ,UI/UX design and technical blog writing."
-        name="Gouranga Das Samrat"
-        type="profile"
-      />
-
       <motion.h1
         className="head-text"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.2 }}
       >
-        Hello, I'm{" "}
+        Bonjour, je suis{" "}
         <motion.span
           className="blue-gradient_text font-semibold drop-shadow"
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
           {" "}
-          Gouranga
+          ONOBIONO ELOGO Dave Yohan
         </motion.span>{" "}
-        👋
+        
       </motion.h1>
 
       <motion.div
@@ -46,7 +39,7 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-I'm a Software Developer who builds scalable applications across web, desktop, and command-line environments. From high-performance web platforms to cross-platform desktop applications and developer tools, I solve complex problems with clean, efficient code and thoughtful system design.
+      Je suis développeur logiciel passionné par la conception d’applications web, desktop et mobiles performantes. Formé en génie logiciel, je travaille avec des technologies comme Django, Laravel, React, Java et PostgreSQL pour créer des solutions modernes, évolutives et centrées sur les besoins utilisateurs. J’aime concevoir des architectures propres, développer des APIs robustes et transformer des idées en applications concrètes et fonctionnelles.
         </motion.p>
 
         <motion.div
@@ -57,12 +50,12 @@ I'm a Software Developer who builds scalable applications across web, desktop, a
         >
           <motion.a
             href="/cv.pdf"
-            download="GourangaDasSamrat_CV.pdf"
+            download="ONOBIONO_ELOGO_Dave_Yohan_CV.pdf"
             className="btn hover:bg-blue-600 transition-colors inline-flex items-center gap-2"
             whileHover={{ scale: 1.05, backgroundColor: "#2563eb" }}
             whileTap={{ scale: 0.95 }}
           >
-            Download CV
+            Télécharger CV
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -107,7 +100,7 @@ I'm a Software Developer who builds scalable applications across web, desktop, a
         </div>
       </div>
 
-      <hr className="border-slate-200" />
+      <hr className="" />
 
       <CTA />
     </motion.section>

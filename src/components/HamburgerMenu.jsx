@@ -13,8 +13,8 @@ const menuVariants = {
 
 const links = [
   { to: "/about", label: "About" },
+  { to: "/experience", label: "Experience" },
   { to: "/projects", label: "Projects" },
-  { to: "/certifications", label: "Certifications" },
   { to: "/contact", label: "Contact" },
 ];
 

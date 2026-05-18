@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <header className="header flex items-center justify-between">
       <NavLink to="/">
-        <img src={logo} alt="logo" className="w-18 h-18 object-contain" />
+        <img src={logo} alt="logo" className="w-20 h-18 object-contain" />
       </NavLink>
       {/* Desktop nav */}
       <nav className="hidden sm:flex text-lg gap-7 font-medium">
@@ -36,14 +36,6 @@ const Navbar = () => {
           }
         >
           Projects
-        </NavLink>
-        <NavLink
-          to="/certifications"
-          className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
-          }
-        >
-          Certifications
         </NavLink>
         <NavLink
           to="/contact"

@@ -3,7 +3,7 @@ import { Suspense, useEffect, useRef, useState } from "react";
 
 import { soundoff, soundon } from "../assets/icons";
 import sakura from "../assets/sakura.mp3";
-import { HomeInfo, Loader, SEO } from "../components";
+import { HomeInfo, Loader } from "../components";
 import { Bird, Island, Plane, Sky } from "../models";
 
 const Home = () => {
@@ -59,11 +59,6 @@ const Home = () => {
 
   return (
     <section className="w-full h-screen relative">
-      <SEO
-        title="Gouranga Das Samrat | Software Developer and Open Source Enthusias"
-        description="Gouranga Das Samrat: Software Developer who builds scalable applications across web, desktop, and command-line environments. From high-performance web platforms to cross-platform desktop applications and developer tools, I solve complex problems with clean, efficient code and thoughtful system design."
-        type="website"
-      />
       <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>

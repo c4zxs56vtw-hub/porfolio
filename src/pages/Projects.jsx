@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import { github, internet } from "../assets/icons";
-import { CTA, SEO } from "../components";
+import { CTA } from "../components";
 import { projects } from "../constants";
 
 const Projects = () => {
@@ -12,13 +11,6 @@ const Projects = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <SEO
-        title="Projects | Gouranga Das Samrat"
-        description="Explore my portfolio of web development projects, featuring React.js, Three.js, and modern web technologies"
-        name="Gouranga Das Samrat"
-        type="website"
-      />
-
       <motion.h1
         className="head-text"
         initial={{ opacity: 0, y: -20 }}
@@ -41,10 +33,7 @@ const Projects = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
       >
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
+        J’ai réalisé de nombreux projets au fil des années, mais ce sont ceux-ci qui me tiennent le plus à cœur. Plusieurs d’entre eux sont open source, donc si vous trouvez quelque chose qui attire votre intérêt, n’hésitez pas à explorer le code source et à proposer vos idées pour de futures améliorations.
       </motion.p>
 
       <motion.div
@@ -79,32 +68,30 @@ const Projects = () => {
               </h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
               <div className="flex gap-4 mt-4">
-                {
-                  project.liveUrl&&(
-                    <Link
-                  to={project.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300 flex items-center justify-center gap-2"
-                >
-                  <img
-                    src={internet}
-                    alt="Live Demo"
-                    className="w-5 h-5 invert"
-                  />
-                  Live Demo
-                </Link>
-                  )
-                }
-                <Link
-                  to={project.sourceCode}
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300 flex items-center justify-center gap-2"
+                  >
+                    <img
+                      src={internet}
+                      alt="Live Demo"
+                      className="w-5 h-5 invert"
+                    />
+                    Live Demo
+                  </a>
+                )}
+                <a
+                  href={project.sourceCode}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 border border-blue-500 text-blue-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 flex items-center justify-center gap-2"
                 >
                   <img src={github} alt="Source Code" className="w-5 h-5" />
                   Source Code
-                </Link>
+                </a>
               </div>
             </div>
           </motion.div>

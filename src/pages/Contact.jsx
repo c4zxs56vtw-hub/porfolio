@@ -5,7 +5,7 @@ import { Suspense, useEffect, useRef, useState } from "react";
 import ReactConfetti from "react-confetti";
 import ReCAPTCHA from "react-google-recaptcha";
 
-import { Alert, Loader, SEO } from "../components";
+import { Alert, Loader } from "../components";
 import useAlert from "../hooks/useAlert";
 import { Fox } from "../models";
 
@@ -75,11 +75,11 @@ const Contact = () => {
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
+          {
           from_name: form.name,
           to_name: "Gouranga Das",
           from_email: form.email,
-          to_email: "gouranga.samrat@gmail.com",
+          to_email: "onobionoelogo69@icloud.com",
           message: form.message,
           "g-recaptcha-response": recaptchaValue,
           sent_date: new Date().toLocaleString(),
@@ -143,13 +143,6 @@ const Contact = () => {
           colors={["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff"]}
         />
       )}
-      <SEO
-        title="Contact | Gouranga Das Samrat"
-        description="Get in touch with Gouranga Das Samrat for web development projects and collaborations"
-        name="Gouranga Das Samrat"
-        type="website"
-      />
-
       <motion.div
         className="flex-1 min-w-[50%] flex flex-col"
         initial={{ opacity: 0, x: -50 }}
@@ -184,7 +177,7 @@ const Contact = () => {
               type="text"
               name="name"
               className="input"
-              placeholder="John Doe"
+              placeholder="yoyo"
               required
               value={form.name}
               onChange={handleChange}
@@ -204,7 +197,7 @@ const Contact = () => {
               type="email"
               name="email"
               className="input"
-              placeholder="john@example.com"
+              placeholder="yoyo@example.com"
               required
               value={form.email}
               onChange={handleChange}
@@ -219,12 +212,12 @@ const Contact = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
           >
-            Your Message
+            Ton Message
             <motion.textarea
               name="message"
               rows="4"
               className="textarea"
-              placeholder="Write your thoughts here..."
+              placeholder="ecrit ton message..."
               value={form.message}
               onChange={handleChange}
               onFocus={handleFocus}
